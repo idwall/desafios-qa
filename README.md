@@ -6,7 +6,7 @@ Os requisitos mínimos para cada tipo de teste está no respectivo diretório.
 
 Não há diferença de testes para diferentes níveis (Junior, Pleno e Sênior) de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
 
-1.  [APIs](https://github.com/idwall/desafios-qa/blob/master/api) - Criar testes automatizados para uma API da IDwall
+1.  [APIs](https://github.com/idwall/desafios-qa/blob/master/apis) - Criar testes automatizados para uma API da IDwall
 2.  [Planning](https://github.com/idwall/desafios-qa/blob/master/planning) - Criar um plano de estruturação de uma área de qualidade
 
 ## Como entregar estes desafios

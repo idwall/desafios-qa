@@ -1,16 +1,15 @@
 Parte do dia-a-dia na IDwall inclui desenvolvermos e aprimoramos *APIs* oferecendo experiências de integração de APIs para nossos clientes.
-Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir!
 
-Sua missão é desenvolver uma automação para uma de nossas principais APIs. 
+Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir! Sua missão é desenvolver uma automação para uma de nossas principais APIs. 
 
-Do que se trata esta API? https://docs.idwall.co/docs/test 
+Do que se trata esta API? https://docs.idwall.co/docs/test
 
 Como posso fazer a integração? https://docs.idwall.co/docs/requesting-a-new-report
 
 Para início do desafio, é necessário solicitar um Token de Autorização para a utilização. Normalmente, enviamos junto com o teste para seu e-mail.
 
 O desafio está dividido em duas partes:
-1. Cenário conhecido
+1. Cenários conhecidos
 2. Cenário não conhecido
 
 ## Cenários conhecidos
@@ -27,10 +26,8 @@ POST https://api-v2.idwall.co/relatorios
         "cpf_numero": ""
     }
 }
-```
 
-O que deve ser validado:
-```
+Response: 
 {
     "error": "Bad Request",
     "message": "É necessário enviar ao menos um parâmetro para criação do relatório.",
@@ -94,7 +91,7 @@ Response:
 ```
 
 ## Cenário não conhecido
-O cenário não conhecido deve ser preparado para o caso onde o relatório possui os dados de input condizentes aos dados reais de uma pessoa. No caso, para não expor os dados verdadeiros de algum usuário, considera montar um cenário onde podemos validar o status como **CONCLUIDO** e o resultado como **VALID**. O sucesso deste cenário será validado com dados de um dos nossos integrates do time :)
+O cenário não conhecido deve ser preparado para o caso onde o relatório possui os dados de input condizentes aos dados reais de uma pessoa. No caso, para não expor os dados verdadeiros de algum usuário, considere montar um cenário onde podemos validar o status como **CONCLUIDO** e o resultado como **VALID**. O sucesso deste cenário será validado com dados de um dos nossos integrates do time :)
 
 ```bash
 Cenário 1: Regra de data diferente
@@ -124,6 +121,6 @@ Response:
 ```
 
 ### Dicas
- - Utilize a criatividade
- - Utilize a doc da API para guiar nos cenários de testes
- - Os exemplos ilustram situações do dia-a-dia
+ - Utilize a documentação da IDwall API para guiar nos cenários de testes;
+ - Os exemplos ilustram situações do dia-a-dia;
+ - Qualquer dúvida, independênte de qual seja, nos envie um e-mail;

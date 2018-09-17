@@ -1,1 +1,129 @@
+Parte do dia-a-dia na IDwall inclui desenvolvermos e aprimoramos *APIs* oferecendo experiências de integração de APIs para nossos clientes.
+Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir!
 
+Sua missão é desenvolver uma automação para uma de nossas principais APIs. 
+
+Do que se trata esta API? https://docs.idwall.co/docs/test 
+
+Como posso fazer a integração? https://docs.idwall.co/docs/requesting-a-new-report
+
+Para início do desafio, é necessário solicitar um Token de Autorização para a utilização. Normalmente, enviamos junto com o teste para seu e-mail.
+
+O desafio está dividido em duas partes:
+1. Cenário conhecido
+2. Cenário não conhecido
+
+## Cenários conhecidos
+1. Onde os dados de envio estão vazios e nossa API retorna erros controlados.
+
+Massa de dados a ser utilizada:
+```bash
+POST https://api-v2.idwall.co/relatorios
+{
+    "matriz": "consultaPessoaDefault",
+    "parametros": {
+        "cpf_data_de_nascimento": "",
+        "cpf_nome": "",
+        "cpf_numero": ""
+    }
+}
+```
+
+O que deve ser validado:
+```
+{
+    "error": "Bad Request",
+    "message": "É necessário enviar ao menos um parâmetro para criação do relatório.",
+    "status_code": 400
+}
+```
+
+2. Onde os dados de envio estão inconsistentes e nossa API retorna validações controladas alertando as irregularidades. Considerar os dois cenários a seguir:
+
+```bash
+Cenário 1: Regra de data diferente
+
+POST https://api-v2.idwall.co/relatorios
+{
+    "matriz": "consultaPessoaDefault",
+    "parametros": {
+        "cpf_data_de_nascimento": "28/09/1988",
+        "cpf_nome": "Gabriel Oliveira",
+        "cpf_numero": "07614917677"
+    }
+}
+
+Response: 
+{
+    "result": {
+        "numero": "XPTO-12341234141234",
+        "status": "CONCLUIDO",
+        "nome": "consultaPessoaDefault",
+        "mensagem": "Inválido. [ERROR] Não foi possível validar: Data de nascimento informada está divergente da constante na base de dados da Secretaria da Receita Federal do Brasil.",
+        "resultado": "INVALID",
+        ...
+    },
+    "status_code": 200
+}
+```
+```bash
+Cenário 2: Regra de nome diferente
+
+POST https://api-v2.idwall.co/relatorios
+{
+    "matriz": "consultaPessoaDefault",
+    "parametros": {
+        "cpf_data_de_nascimento": "25/05/1987",
+        "cpf_nome": "Gabriel Oliveira",
+        "cpf_numero": "07614917677"
+    }
+}
+
+Response:
+{
+    "result": {
+        "numero": "XPTO-12341234141234",
+        "status": "CONCLUIDO",
+        "nome": "consultaPessoaDefault",
+        "mensagem": "Inválido. [INVALID] Nome diferente do cadastrado na Receita Federal.",
+        "resultado": "INVALID",
+        ...
+    },
+    "status_code": 200
+}
+```
+
+## Cenário não conhecido
+O cenário não conhecido deve ser preparado para o caso onde o relatório possui os dados de input condizentes aos dados reais de uma pessoa. No caso, para não expor os dados verdadeiros de algum usuário, considera montar um cenário onde podemos validar o status como **CONCLUIDO** e o resultado como **VALID**. O sucesso deste cenário será validado com dados de um dos nossos integrates do time :)
+
+```bash
+Cenário 1: Regra de data diferente
+
+POST https://api-v2.idwall.co/relatorios
+{
+    "matriz": "consultaPessoaDefault",
+    "parametros": {
+        "cpf_data_de_nascimento": "Data verdadeira",
+        "cpf_nome": "Nome verdadeiro",
+        "cpf_numero": "CPF verdadeiro"
+    }
+}
+
+Response: 
+{
+    "result": {
+        "numero": "XPTO-12341234141234",
+        "status": "CONCLUIDO",
+        "nome": "consultaPessoaDefault",
+        "mensagem": "Válido.",
+        "resultado": "VALID",
+        ...
+    },
+    "status_code": 200
+}
+```
+
+### Dicas
+ - Utilize a criatividade
+ - Utilize a doc da API para guiar nos cenários de testes
+ - Os exemplos ilustram situações do dia-a-dia

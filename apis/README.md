@@ -120,6 +120,13 @@ Response:
 }
 ```
 
+## Como entregar?
+Utilize alguns dos frameworks mais conhecidos de mercado orientado a tests funcionais para APIs. Um exemplo muito utilizado é o [Cucumber](https://cucumber.io) em suas respectivas linguagens Ruby, Python, etc.
+
+- Descreva como executar os testes;
+- Caso tenha conhecimento, utilize Docker para execução dos testes;
+- Adicione observações caso necessário;
+
 ### Dicas
  - Utilize a documentação da IDwall API para guiar nos cenários de testes;
  - Os exemplos ilustram situações do dia-a-dia;

@@ -6,7 +6,7 @@ Do que se trata esta API? https://docs.idwall.co/docs/test
 
 Como posso fazer a integração? https://docs.idwall.co/docs/requesting-a-new-report
 
-Para início do desafio, é necessário solicitar um Token de Autorização para a utilização. Normalmente, enviamos junto com o teste para seu e-mail.
+Para início do desafio, é necessário solicitar um Token de Autorização. Normalmente, enviamos junto com o teste para seu e-mail.
 
 O desafio está dividido em duas partes:
 1. Cenários conhecidos

@@ -4,7 +4,9 @@ Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir! S
 
 Do que se trata esta API? https://docs.idwall.co/docs/test
 
-Como posso fazer a integração? https://docs.idwall.co/docs/requesting-a-new-report
+Como posso fazer a integração? 
+- Criando um relatório: https://docs.idwall.co/docs/requesting-a-new-report
+- Obtendo informações de um relatório: https://docs.idwall.co/docs/reports-overview
 
 Para início do desafio, é necessário solicitar um Token de Autorização. Normalmente, enviamos junto com o teste para seu e-mail.
 

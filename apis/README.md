@@ -2,11 +2,11 @@ Parte do dia-a-dia na IDwall inclui desenvolvermos e aprimoramos *APIs* oferecen
 
 Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir! Sua missão é desenvolver uma automação para uma de nossas principais APIs. 
 
-Do que se trata esta API? https://docs.idwall.co/docs/test
+Do que se trata esta API? https://docs.idwall.co/docs/overview
 
 Como posso fazer a integração? 
-- Criando um relatório: https://docs.idwall.co/docs/requesting-a-new-report
-- Obtendo informações de um relatório: https://docs.idwall.co/docs/reports-overview
+- Criando um relatório: https://docs.idwall.co/docs/what-is-a-report
+- Obtendo informações de um relatório: https://docs.idwall.co/docs/get-report
 
 Para início do desafio, é necessário solicitar um Token de Autorização. Normalmente, enviamos junto com o teste para seu e-mail.
 

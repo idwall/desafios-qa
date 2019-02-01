@@ -4,13 +4,17 @@ Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir! S
 
 Do que se trata esta API? https://docs.idwall.co/docs/overview
 
-Como posso fazer a integração? 
-- Criando um relatório: https://docs.idwall.co/docs/what-is-a-report
-- Obtendo informações de um relatório: https://docs.idwall.co/docs/get-report
+**Como funciona a integração?**
+
+Para criar um relatório, precisamos utilizar a API de criação de relatórios da idwall - https://docs.idwall.co/docs/what-is-a-report. Vale informar que esta API é uma API assíncrona. 
+
+Após a criação de um relatório, para obter as informações atualizadas do status de processamento do relatório precisamos acessar a API de obtenção de informações de um relatório - https://docs.idwall.co/docs/get-report.
+
+**O que preciso para iniciar?**
 
 Para início do desafio, é necessário solicitar um Token de Autorização. Normalmente, enviamos junto com o teste para seu e-mail.
 
-O desafio está dividido em duas partes:
+# Como o desafio está dividido:
 1. Cenários conhecidos
 2. Cenário não conhecido
 

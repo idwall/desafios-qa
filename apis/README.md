@@ -23,7 +23,7 @@ Para início do desafio, é necessário solicitar um Token de Autorização. Nor
 
 Massa de dados a ser utilizada:
 ```bash
-POST https://api-v2.idwall.co/relatorios
+POST para a URL: https://api-v2.idwall.co/relatorios de status code de retorno 200 com o codigo (id) do novo relatório gerado:
 {
     "matriz": "consultaPessoaDefault",
     "parametros": {
@@ -33,7 +33,7 @@ POST https://api-v2.idwall.co/relatorios
     }
 }
 
-Response: 
+Retorno do POST com dados não suportados:
 {
     "error": "Bad Request",
     "message": "É necessário enviar ao menos um parâmetro para criação do relatório.",
@@ -46,7 +46,7 @@ Response:
 ```bash
 Cenário 1: Regra de data diferente
 
-POST https://api-v2.idwall.co/relatorios
+POST para a URL: https://api-v2.idwall.co/relatorios de status code de retorno 200 com o codigo (id) do novo relatório gerado:
 {
     "matriz": "consultaPessoaDefault",
     "parametros": {
@@ -56,7 +56,7 @@ POST https://api-v2.idwall.co/relatorios
     }
 }
 
-Response: 
+Por ser uma API async, precisamos obter o status atual do processamento através de um Get na API com o codigo (id) do relatório gerado no Post anterior:
 {
     "result": {
         "numero": "XPTO-12341234141234",
@@ -72,8 +72,7 @@ Response:
 ```bash
 Cenário 2: Regra de nome diferente
 
-POST https://api-v2.idwall.co/relatorios
-{
+POST para a URL: https://api-v2.idwall.co/relatorios de status code de retorno 200 com o codigo (id) do novo relatório gerado:{
     "matriz": "consultaPessoaDefault",
     "parametros": {
         "cpf_data_de_nascimento": "25/05/1987",
@@ -82,7 +81,7 @@ POST https://api-v2.idwall.co/relatorios
     }
 }
 
-Response:
+Por ser uma API async, precisamos obter o status atual do processamento através de um Get na API com o codigo (id) do relatório gerado no Post anterior:
 {
     "result": {
         "numero": "XPTO-12341234141234",
@@ -102,8 +101,7 @@ O cenário não conhecido deve ser preparado para o caso onde o relatório possu
 ```bash
 Cenário 1: Regra de data diferente
 
-POST https://api-v2.idwall.co/relatorios
-{
+POST para a URL: https://api-v2.idwall.co/relatorios de status code de retorno 200 com o codigo (id) do novo relatório gerado:{
     "matriz": "consultaPessoaDefault",
     "parametros": {
         "cpf_data_de_nascimento": "Data verdadeira",
@@ -112,7 +110,7 @@ POST https://api-v2.idwall.co/relatorios
     }
 }
 
-Response: 
+Por ser uma API async, precisamos obter o status atual do processamento através de um Get na API com o codigo (id) do relatório gerado no Post anterior:
 {
     "result": {
         "numero": "XPTO-12341234141234",

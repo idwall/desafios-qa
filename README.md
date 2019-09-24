@@ -1,21 +1,18 @@
-# Desafio de Automatização de APIs e Front-ends
+# Desafios para vagas de QA na Idwall
 
 Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para a vaga de Analista/Engenheiro de Qualidade de Software.
 
-Os requisitos mínimos para cada tipo de teste está no respectivo diretório.
+Os requisitos mínimos para cada tipo de teste estão no respectivo diretório.
 
-Não há diferença de testes para diferentes níveis (Junior, Pleno e Sênior) de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
-
-1.  [APIs](https://github.com/idwall/desafios-qa/blob/master/apis) - Criar testes automatizados para uma API da IDwall
-2.  [Planning](https://github.com/idwall/desafios-qa/blob/master/planning) - Criar um plano de estruturação de uma área de qualidade
+* [Desafio QA Engineer](https://github.com/idwall/desafios-qa/tree/master/qa-engineer)
+* [Desafio QA Junior](https://github.com/idwall/desafios-qa/tree/master/qa-junior)
 
 ## Como entregar estes desafios
+* Efetuar um _fork_ deste repositório em um gerenciador Git de sua preferência, como Github, Bitbucket etc.
+* Ao final do teste, enviar o link do repositório para o recrutador.
+* Fique a vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto. Também é permitido alterar/acrescentar um README com instruções de como executá-lo, melhorias de design etc.
 
-Você deve criar um repositório para este projeto e fazer o _push_ no seu próprio repositório e enviar o link para _jobs@idwall.co_ ou para o email do recrutador, junto com seu LinkedIn atualizado.
-
-Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, alterar/acrescentar um README com instruções de como executá-lo, melhrias de design, etc.
-
-**Obs.:** Você não deve fazer um Pull Request para este projeto!
+**Obs.: Não fazer um _Pull Request_ para este projeto!**
 
 #### Com o que devo me preocupar quando for entregar os desafios?
 - Descreva como utilizar e executar a sua solução;
@@ -26,6 +23,8 @@ Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao p
 
 ## Carreira IDwall
 
-Caso queira mais detalhes de como trabalhamos, quais são nossos valores e ideais, confira a página [Carreira IDwall](https://idwall.co/carreira) e mesmo que seu perfil não esteja listado nas vagas em aberto, lhe encorajamos a mandar seu CV! Valorizamos bons profissionais sempre e gostamos de manter contato com gente boa.
+Caso queira mais detalhes de como trabalhamos, quais são nossos valores e ideais, confira a página [Carreira IDwall](https://idwall.gupy.io/)
+
+Mesmo que seu perfil não esteja listado nas vagas em aberto, lhe encorajamos a mandar seu CV! Valorizamos bons profissionais sempre e gostamos de manter contato com gente boa.
 
 Boas implementações! 🎉

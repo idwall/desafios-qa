@@ -1,7 +1,4 @@
-# Desafio QA
-## Instruções Gerais
-* Efetuar um _fork_ deste repositório em um gerenciador Git de sua preferência, como Github, Bitbucket etc.
-* Ao final do teste, enviar o link do repositório para o recrutador.
+# Desafio para a vaga de QA Junior
 ## Parte 1 - Planejamento de testes
 Objetivo: Criar um documento descrevendo os testes a serem realizados no blog da Idwall [blog.idwall.co](https://blog.idwall.co/)
 ### Escopo

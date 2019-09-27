@@ -1,30 +1,6 @@
-# Desafio para a vaga de QA Junior
-## Parte 1 - Planejamento de testes
-Objetivo: Criar um documento descrevendo os testes a serem realizados no blog da Idwall [blog.idwall.co](https://blog.idwall.co/)
-### Escopo
-* Os testes deverão cobrir **somente** a página principal
-* Incluir na validação tudo o que for relevante para uma validação mínima da página. Exemplos: links para posts, caixas de pesquisa, menus etc.
-* Os cenários/casos de testes devem armazenados na pasta [1-planning](), especificados na linguagem [Gherkin](https://cucumber.io/docs/gherkin/reference/) ou em formato de planilha. No caso de planilha, especificar os testes utilizando **obrigatoriamente** as seguintes colunas: _Dados dos testes_, _Procedimento_ e _Resultado Esperado_
-## Parte 2 - Execução dos testes
-Objetivo: Executar os testes planejados na Parte 1, evidenciar os testes executados, criar métricas de execução e registro de defeitos.
-### Escopo
-* Armazenar na pasta [2-execution]() métricas dos testes executados (sumário da execução, total de casos de teste _passed_, _failed_ etc.)
-* Armazenar também um registro de defeitos encontrados durante a execução, em formato de planilha.
-* Os defeitos devem ser descritos de uma maneira que seja de fácil compreensão aos possíveis envolvidos (desenvolvedores, outros QAs, gerentes de projeto etc.). Utilize como referência [este post do CartoonTester](https://cartoontester.blogspot.com/2012/02/art-of-bug-reporting.html) 
-* Não se esqueça de evidenciar os defeitos encontrados adequadamente!
-## Parte 3 - Automação dos testes
-Objetivo: Automatizar um cenário/caso de teste do [blog da Idwall](https://blog.idwall.co/)
-### Escopo
-* Automatizar o seguinte caso de teste:
-```
-Cenário: Pesquisar um post no blog da Idwall
-    Quando acesso o blog da Idwall
-    E clico na lupa
-    E informo o título de um post existente
-    E digito <ENTER>
-    Então deve exibir o post pesquisado em uma página de resultados
-```
-* Utilizar o framework de teste de sua preferência (ex. JUnit, MSTest, RSpec, Cucumber, Cypress, TestCafé, Nightwatch etc.)
-* Armazenar o código da automação na pasta [3-automation]()
-* Criar também um README.md, com as instruções necessárias para executar a automação.
-* Lembre-se que a máquina de quem efetuará a avaliação nem sempre contém todos os pacotes, programas e afins, necessários para a execução. Portanto, seja bem descritivo! 
+# Desafio QA Junior Idwall – Considerações finais
+
+A respeito tanto do processo da resolução e execução do desafio, grande parte eu acabei me baseando e orientando por experiências anteriores minhas como analista de sistemas onde realizava e organizava testes, porém sem um padrão ou organização especifico de QA. A parte menor, tentei utilizar ao máximo os conhecimentos que estou adquirindo via cursos online, leituras, videos e até workshops e meetups a respeito de QA como um todo.
+A respeito de tecnologias e metodologias, no planejamento em geral dos testes utilizei planilhas mesmo, por me sentir mais confortável e por ter visto poucas coisas a respeito de Gherkin.
+Foi a primeira vez que fiz um teste para QA neste formato, no qual me agradou bastante tanto as instruções e requisitos. Porém, independente do resultado eu gostaria de dizer que tenho muito interesse em conversar com algum responsável na Idwall, seja um recrutador, QA ou gerente. Sei que um desafio técnico como este é necessário principalmente para analisar o minimo de conhecimento e habilidades, porém acredito que a melhor forma de alinhar ideias, sugestões e críticas sempre será pessoalmente.
+Por fim, gostaria de agradecer demais por todos os feedbacks e orientações que tive até essa etapa, desde a mensagem enviada pelo Sérgio no grupo "Garoa QA" até a realização deste desafio.

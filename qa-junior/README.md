@@ -1,4 +1,4 @@
-# Desafio QA Junior Idwall – Considerações finais
+# Desafio QA Junior Idwall – Considerações
 
 A respeito tanto do processo da resolução e execução do desafio, grande parte eu acabei me baseando e orientando por experiências anteriores minhas como analista de sistemas onde realizava e organizava testes, porém sem um padrão ou organização especifico de QA.
 

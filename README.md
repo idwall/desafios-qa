@@ -1,30 +1,11 @@
-# Desafios para vagas de QA na Idwall
+# Desafio QA Junior Idwall – Considerações
 
-Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall para a vaga de Analista/Engenheiro de Qualidade de Software.
+A respeito tanto do processo da resolução e execução do desafio, grande parte eu acabei me baseando e orientando por experiências anteriores minhas como analista de sistemas onde realizava e organizava testes, porém sem um padrão ou organização especifico de QA.
 
-Os requisitos mínimos para cada tipo de teste estão no respectivo diretório.
+A parte menor, tentei utilizar ao máximo os conhecimentos que estou adquirindo via cursos online, leituras, videos e até workshops e meetups a respeito de QA como um todo.
 
-* [Desafio QA Engineer](https://github.com/idwall/desafios-qa/tree/master/qa-engineer)
-* [Desafio QA Junior](https://github.com/idwall/desafios-qa/tree/master/qa-junior)
+A respeito de tecnologias e metodologias, no planejamento em geral dos testes utilizei planilhas mesmo, por me sentir mais confortável e por ter visto poucas coisas a respeito de Gherkin.
 
-## Como entregar estes desafios
-* Efetuar um _fork_ deste repositório em um gerenciador Git de sua preferência, como Github, Bitbucket etc.
-* Ao final do teste, enviar o link do repositório para o recrutador.
-* Fique a vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto. Também é permitido alterar/acrescentar um README com instruções de como executá-lo, melhorias de design etc.
+Foi a primeira vez que fiz um teste para QA neste formato, no qual me agradou bastante tanto as instruções e requisitos. Porém, independente do resultado eu gostaria de dizer que tenho muito interesse em conversar com algum responsável na Idwall, seja um recrutador, QA ou gerente. Sei que um desafio técnico como este é necessário principalmente para analisar o minimo de conhecimento e habilidades, porém acredito que a melhor forma de alinhar ideias, sugestões e críticas sempre será pessoalmente.
 
-**Obs.: Não fazer um _Pull Request_ para este projeto!**
-
-#### Com o que devo me preocupar quando for entregar os desafios?
-- Descreva como utilizar e executar a sua solução;
-- Descreva o processo de resolução dos desafios;
-- Descreva a motivação e o porque da utilização de cada tecnologia;
-- Descreva o que considera interessante sabermos :)
-- Não se limitar aos requisitos destes desafios. Sinta-se em casa em adicionar mais detalhes a solução.
-
-## Carreira IDwall
-
-Caso queira mais detalhes de como trabalhamos, quais são nossos valores e ideais, confira a página [Carreira IDwall](https://idwall.gupy.io/)
-
-Mesmo que seu perfil não esteja listado nas vagas em aberto, lhe encorajamos a mandar seu CV! Valorizamos bons profissionais sempre e gostamos de manter contato com gente boa.
-
-Boas implementações! 🎉
+Por fim, gostaria de agradecer demais por todos os feedbacks e orientações que tive até essa etapa, desde a mensagem enviada pelo Sérgio no grupo "Garoa QA" até a realização deste desafio.

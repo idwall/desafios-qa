@@ -4,7 +4,8 @@ Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall p
 
 Os requisitos mínimos para cada tipo de teste estão no respectivo diretório.
 
-* [Desafio QA Engineer](https://github.com/idwall/desafios-qa/tree/master/qa-engineer)
+* [Desafio QA Engineer - API](https://github.com/idwall/desafios-qa/tree/master/qa-engineer-api)
+* [Desafio QA Engineer - Mobile](https://github.com/idwall/desafios-qa/tree/master/qa-engineer-mobile)
 * [Desafio QA Junior](https://github.com/idwall/desafios-qa/tree/master/qa-junior)
 
 ## Como entregar estes desafios

@@ -1,4 +1,4 @@
-#Introdução
+# Introdução
 Parte do dia-a-dia na IDwall inclui desenvolvermos e aprimoramos *APIs* oferecendo experiências de integração de APIs para nossos clientes.
 
 Como nós nos divertimos trabalhando, às vezes trabalhamos para nos divertir! Sua missão é desenvolver uma automação para uma de nossas principais APIs. 
@@ -14,6 +14,7 @@ Após a criação de um relatório, para obter as informações atualizadas do s
 **O que preciso para iniciar?**
 
 Para início do desafio, é necessário solicitar um Token de Autorização. Normalmente, enviamos junto com o teste para seu e-mail.
+> **Atenção: Não armazenar o token nos arquivos deste projeto!** Este é um requisito **mandatório** e você deverá apresentar uma solução aonde o token não fique exposto no repositório.
 
 # Como o desafio está dividido:
 1. Cenários conhecidos

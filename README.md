@@ -6,7 +6,7 @@ Os requisitos mínimos para cada tipo de teste estão no respectivo diretório.
 
 * [Desafio QA Engineer - API](https://github.com/idwall/desafios-qa/tree/master/qa-engineer-api)
 * [Desafio QA Engineer - Mobile](https://github.com/idwall/desafios-qa/tree/master/qa-engineer-mobile)
-* [Desafio QA Junior](https://github.com/idwall/desafios-qa/tree/master/qa-junior)
+* [Desafio QA Junior e Pleno](https://github.com/idwall/desafios-qa/tree/master/qa-junior-pleno)
 
 ## Como entregar estes desafios
 * Efetuar um _fork_ deste repositório em um gerenciador Git de sua preferência, como Github, Bitbucket etc.

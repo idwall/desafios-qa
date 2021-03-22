@@ -5,7 +5,7 @@ Objetivo: Criar um documento descrevendo os testes a serem realizados no blog da
 * Os testes deverão cobrir **somente** a página principal
 * Incluir na validação tudo o que for relevante para uma validação mínima da página. Exemplos: links para posts, caixas de pesquisa, menus etc.
 * Os cenários/casos de testes devem armazenados na pasta ```1-planning```, especificados na linguagem [Gherkin](https://cucumber.io/docs/gherkin/reference/) ou em formato de planilha. No caso de planilha, especificar os testes utilizando **obrigatoriamente** as seguintes colunas: _Dados dos testes_, _Procedimento_ e _Resultado Esperado_
-## Parte 3 - Automação dos testes
+## Parte 2 - Automação dos testes
 Objetivo: Automatizar dois cenários descritos no documento da **Parte 1**
 ### Escopo
 * Utilizar o framework de teste de sua preferência (ex. JUnit, MSTest, RSpec, Cucumber, Cypress, TestCafé, Nightwatch etc.)
